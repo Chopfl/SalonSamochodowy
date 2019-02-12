@@ -90,6 +90,7 @@
     <Build Include="rapOp\Views\vwMarkaZamowienia.sql" />
     <Build Include="Security\rapOp.sql" />
     <Build Include="rapOp\Views\vwPracownikZamowienia.sql" />
+    <Build Include="rapOp\Views\vwModeleNieZamowione.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment1.sql" />
