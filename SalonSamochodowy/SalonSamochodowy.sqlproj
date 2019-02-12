@@ -93,6 +93,7 @@
     <Build Include="rapOp\Views\vwModeleNieZamowione.sql" />
     <Build Include="rapOp\Views\vwZamowieniaRabat.sql" />
     <Build Include="rapOp\Views\vwZamowieniaSerwisuZakonczone.sql" />
+    <Build Include="rapOp\Views\vwZamowieniaSerwisuNaPrzeglad.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment1.sql" />
