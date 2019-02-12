@@ -67,15 +67,5 @@
     <Build Include="dbo\Tables\Pracownik.sql" />
     <Build Include="dbo\Tables\Klient.sql" />
     <Build Include="dbo\Tables\Zamowienie.sql" />
-    <Build Include="dbo\Tables\Zespol.sql" />
-    <Build Include="dbo\Tables\StanowiskoPracy.sql" />
-    <Build Include="dbo\Tables\PracownikZespol.sql" />
-    <Build Include="dbo\Tables\PracownikStanowisko.sql" />
-    <Build Include="dbo\Tables\Wyplata.sql" />
-    <Build Include="dbo\Tables\Wynagrodzenie.sql" />
-    <Build Include="dbo\Tables\ZamowienieSerwisu.sql" />
-    <Build Include="dbo\Tables\UslugaSerwisu.sql" />
-    <Build Include="dbo\Tables\StatusZamowieniaSerwisu.sql" />
-    <Build Include="dbo\Tables\HistoriaZamowieniaSerwisu.sql" />
   </ItemGroup>
 </Project>
