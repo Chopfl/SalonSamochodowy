@@ -97,6 +97,7 @@
     <Build Include="rapOp\Views\vwZadaniaPracownikowNaWypowiedzeniu.sql" />
     <Build Include="rapOp\Views\vwRocznePensje.sql" />
     <Build Include="rapOp\Views\vwPracownicyBezObowiazkow.sql" />
+    <Build Include="rapOp\Views\vwPracownicyBezZespolu.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment1.sql" />
