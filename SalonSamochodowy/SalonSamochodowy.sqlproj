@@ -67,6 +67,7 @@
     <Folder Include="Scripts" />
     <Folder Include="rapOp\" />
     <Folder Include="rapOp\Views\" />
+    <Folder Include="dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Marka.sql" />
@@ -98,6 +99,7 @@
     <Build Include="rapOp\Views\vwRocznePensje.sql" />
     <Build Include="rapOp\Views\vwPracownicyBezObowiazkow.sql" />
     <Build Include="rapOp\Views\vwPracownicyBezZespolu.sql" />
+    <Build Include="dbo\Stored Procedures\DodajZamowienia.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment1.sql" />
