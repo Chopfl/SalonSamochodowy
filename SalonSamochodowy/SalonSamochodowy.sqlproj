@@ -100,6 +100,7 @@
     <Build Include="rapOp\Views\vwPracownicyBezObowiazkow.sql" />
     <Build Include="rapOp\Views\vwPracownicyBezZespolu.sql" />
     <Build Include="dbo\Stored Procedures\DodajZamowienia.sql" />
+    <Build Include="dbo\Stored Procedures\DodajZamowieniaDoSerwis.sql" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\PostDeployment1.sql" />
