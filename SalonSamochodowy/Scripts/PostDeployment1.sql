@@ -9,6 +9,9 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
+Use SalonSamochodowy;
+
+Go
 
 INSERT INTO [Marka] (Nazwa, KrajPochodzenia, Koncern)
 VALUES 
@@ -81,3 +84,44 @@ VALUES
 ('Zmiana Opon',110);
 go
 
+INSERT INTO [Cennik] (ModelID, Cena, Uzywany, Przebieg, CenaOd, CenaDo)
+VALUES
+(1,17000 ,1 ,110000 ,'2018-04-1' ,'2019-05-1' ),
+(2,21750 ,0 ,220000 ,'2018-08-1' ,'2019-04-1' ),
+(3,11200 ,1 ,400000 ,'2018-07-1' ,'2019-03-1' ),
+(4,56500 ,1 ,450000 ,'2018-06-1' ,'2019-09-1' ),
+(5,12500 ,1 ,123000 ,'2018-07-1' ,'2019-08-1' ),
+(6,10000 ,0 ,450000 ,'2018-08-1' ,'2019-05-1' ),
+(7,12000 ,0 ,500500 ,'2018-10-1' ,'2019-06-1' ),
+(8,34000 ,0 ,560000 ,'2018-04-1' ,'2019-07-1' ),
+(9,23400 ,0 ,140000 ,'2018-06-1' ,'2019-09-1' ),
+(10,99000 ,0 ,340500 ,'2018-05-1' ,'2019-04-1' ),
+(11,77000 ,0 ,450000 ,'2018-04-1' ,'2019-04-1' ),
+(12,12400 ,1 ,120000 ,'2018-06-1' ,'2019-05-1' ),
+(13,20000 ,0 ,230000 ,'2018-03-1' ,'2019-04-1' ),
+(14,11100 ,1 ,230000 ,'2018-01-1' ,'2019-03-1' ),
+(15,22500 ,0 ,300000 ,'2018-12-1' ,'2019-04-1' );
+GO
+
+INSERT INTO Hr.Zespol (Nazwa, MiejscePracy)
+VALUES
+('Sprzedawcy','Salon'),
+('Mechanicy','Warsztat'),
+('Administracja','Biuro'),
+('Lakiernicy','Warsztat'),
+('Sprzatacze','Wszedzie');
+GO
+
+INSERT INTO Hr.StanowiskoPracy (Nazwa, Obowiazki)
+VALUES
+('Asystent Mechanik','naprawa samochodow'),
+('Mechanik','naprawa Samochodow'),
+('Sprzedawca','sprzedaz samochodow'),
+('Mlodszy Malarz','malowanie oklejanie'),
+('Malarz','malowanie oklejanie'),
+('Starszy Malarz','malowanie, oklejanie'),
+('Sekretarka','spotkania, korespondencja, obsluga telefonu'),
+('Sprzataczka','dbanie o czystosc'),
+('Przedstawiciel','reprezentowanie salonu, pozyskiwanie klijentow'),
+('Pracownik Myjni','dbanie o czystosc samochodow'),
+GO
